@@ -9,19 +9,19 @@
 <body>
   <!-- <iframe src="https://www.desmos.com/calculator/0yrqhhbzhj" width="100%" style="min-height:200px"></iframe> -->
   <button class="divider" id="button1" onclick="hide(1)">linear regression</button>
-  <div id="box1">
+  <div id="box1" class="box">
     <h1>Linear Regression</h1>
     <div id="container"></div>
     <button onclick="functionNameHereIdk()" style="width: 100px; background: black; color: white; border: none; padding: 10px; margin: 10px;" id="switch"> quadratic</button>
     <button onclick="clearpoints()" style="background: black; color: white; border:none; width: 100px; padding: 10px;  margin: 10px;"> clear</button>
   </div>
   <button class="divider" id="button2" onclick="hide(2)">natural language processing</button>
-  <div id="box2">
+  <div id="box2" class="box">
     <h1>NLP (natural language processing)</h1>
     <h1> Language Detector</h1>
     <p class="info"> Under option 1 name and option 2 name, enter the names of two languages, and in their respective samples, put samples of each language! This is made for English and Spanish but can theoretically be applied to any pair of languages that use the latin alphabet, and can occasionally detect differences between two categories of text in the same language. A confidence score of 0.5 is pretty confident, a score of 1 is very confident. Doesn't work with short text samples.</p>
     <input class="inputField" id="inputField"></input><br>
-    <button onclick="test()">test</button>
+    <button class="nlpbutton" onclick="test()">test</button>
     <p id="outputtest" class="output"> </p>
     <h2> Option 1 name:</h2>
     <input id="lang1name" value="English"></input>

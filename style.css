@@ -6,5 +6,60 @@
   padding: 20px;
   font-size: 30px;
   text-align: left;
-  
+  margin-top: 10px;
+}
+
+#box1, #box2{
+  display:none;
+}
+
+.box {
+  width: 2000px;
+  border-width: medium;
+  /* background: blue; */
+  padding-left: 1000px;
+  height: 100%;
+}
+
+body{
+  font-weight: 100;
+  font-family: sans-serif;
+  align: center;
+}
+
+h1{
+  font-weight: 400;
+  text-align: center;
+}
+
+.inputField {
+  /* width: 100%; */
+  font-size: 2em;
+  /* margin-left: 5%; */
+  /* margin-right:5%; */
+}
+
+.nlpbutton{
+  /* width: 100%; */
+  border: none;
+  background: black;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  padding-left: 147px;
+  padding-right: 147px;
+  font-size: 2em;
+  transition: color 0.5s, background 0.5s;
+}
+
+.nlpbutton:hover{
+  background: #aaaaaa;
+  /* color: black; */
+
+}
+
+.output{
+  text-decoration: underline;
+  text-align: left;
+  font-size: 1em;
 }
