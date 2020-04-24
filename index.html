@@ -2,14 +2,17 @@
 <head>
   <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
   <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <script language="javascript" type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <!-- <iframe src="https://www.desmos.com/calculator/0yrqhhbzhj" width="100%" style="min-height:200px"></iframe> -->
-
-
-  <h1> ML Cheatsheet</h1>
-  <div id="container"></div>
-  <button onclick="functionNameHereIdk()" style="width: 100px; background: black; color: white; border: none; padding: 10px; margin: 10px;" id="switch"> quadratic</button>
-  <button onclick="clearpoints()" style="background: black; color: white; border:none; width: 100px; padding: 10px;  margin: 10px;"> clear</button>
+  <button class="divider" id="button1" onclick="hide(1)">test</button>
+  <div id="box1">
+    <h1>Linear Regression</h1>
+    <div id="container"></div>
+    <button onclick="functionNameHereIdk()" style="width: 100px; background: black; color: white; border: none; padding: 10px; margin: 10px;" id="switch"> quadratic</button>
+    <button onclick="clearpoints()" style="background: black; color: white; border:none; width: 100px; padding: 10px;  margin: 10px;"> clear</button>
+  </div>
 </body>
 </html>
