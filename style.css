@@ -1,12 +1,19 @@
 .divider{
   width: 100%;
   font-family: sans-serif;
-  background: lightgrey;
+  transition: background 0.5s, color 0.5s;
   border: none;
+    background: lightgrey;
+    color: black;
   padding: 20px;
   font-size: 30px;
   text-align: left;
   margin-top: 10px;
+}
+
+.divider:hover{
+  /* background: black; */
+  color: darkblue;
 }
 
 .subdivider{

@@ -7,23 +7,25 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <button class="divider" id="button0" onclick="hide(0)">desmos linear regression</button>
+  <h1> Machine learning cheat sheet!</h1>
+  <p> This page contains examples of a few fundamental concepts and techniques in machine learning, as well as a dictionary of common terms.</p>
+  <button class="divider" id="button0" onclick="hide(0)">Desmos Linear Regression</button>
   <div id="box0" class="box">
     <p> We analyzed real-world datasets from Kaggle and plotted data. We then used linear regression models on the data sets to predict unknown quantities. Some models were even fit with quadratic regressions.</p>
     <iframe src="https://www.desmos.com/calculator/0yrqhhbzhj" width="50%" style="min-height:300px;"></iframe>
   </div>
-  <button class="divider" id="button1" onclick="hide(1)">linear regression</button>
+  <button class="divider" id="button1" onclick="hide(1); clearpoints(); reg=1">p5 Stochastic Gradient Descent Linear Regression</button>
   <div id="box1" class="box">
     <h1>Linear Regression</h1>
     <div id="container"></div>
-    <button onclick="functionNameHereIdk()" style="width: 100px; background: black; color: white; border: none; padding: 10px; margin: 10px;" id="switch"> quadratic</button>
+    <button onclick="functionNameHereIdk()" style="width: 100px; background: black; color: white; border: none; padding: 10px; margin: 10px;" id="switch"> linear</button>
     <button onclick="clearpoints()" style="background: black; color: white; border:none; width: 100px; padding: 10px;  margin: 10px;"> clear</button>
   </div>
-  <button class="divider" id="button2" onclick="hide(2)">natural language processing</button>
+  <button class="divider" id="button2" onclick="hide(2)">Language Recognition</button>
   <div id="box2" class="box">
-    <h1>NLP (natural language processing)</h1>
-    <h1> Language Detector</h1>
+    <h1>Language Recognition</h1>
     <p class="info"> Under option 1 name and option 2 name, enter the names of two languages, and in their respective samples, put samples of each language! This is made for English and Spanish but can theoretically be applied to any pair of languages that use the latin alphabet, and can occasionally detect differences between two categories of text in the same language. A confidence score of 0.5 is pretty confident, a score of 1 is very confident. Doesn't work with short text samples.</p>
+    <p class="info"> This is a simple application of machine learning that classifies short 1- and 2- letter phrases into one of the two languages by using the training data, and then uses those weights to classify an unknown/unlabeled example.</p>
     <input class="inputField" id="inputField"></input><br>
     <button class="nlpbutton" onclick="test()">test</button>
     <p id="outputtest" class="output"> </p>
@@ -39,7 +41,7 @@
 
 
   </div>
-  <button class="divider" id="button3" onclick="hide(3)">dictionary</button>
+  <button class="divider" id="button3" onclick="hide(3)">Dictionary</button>
   <div id="box3" class="box">
     <button class="subdivider" id="button4" onclick="hide(4)">Machine Learning</button>
     <div id="box4" class="box subbox">
