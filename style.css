@@ -9,7 +9,20 @@
   margin-top: 10px;
 }
 
-#box1, #box2{
+.subdivider{
+  width: 70%;
+  margin-left: 5%;
+  font-family: sans-serif;
+  background: lightgrey;
+  border: none;
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+.box{
   display:none;
 }
 
@@ -17,7 +30,6 @@
   width: 2000px;
   border-width: medium;
   /* background: blue; */
-  padding-left: 1000px;
   height: 100%;
 }
 
