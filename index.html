@@ -7,7 +7,11 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <!-- <iframe src="https://www.desmos.com/calculator/0yrqhhbzhj" width="100%" style="min-height:200px"></iframe> -->
+  <button class="divider" id="button0" onclick="hide(0)">desmos linear regression</button>
+  <div id="box0" class="box">
+    <p> We analyzed real-world datasets from Kaggle and plotted data. We then used linear regression models on the data sets to predict unknown quantities. Some models were even fit with quadratic regressions.</p>
+    <iframe src="https://www.desmos.com/calculator/0yrqhhbzhj" width="50%" style="min-height:300px;"></iframe>
+  </div>
   <button class="divider" id="button1" onclick="hide(1)">linear regression</button>
   <div id="box1" class="box">
     <h1>Linear Regression</h1>
@@ -38,33 +42,75 @@
   <button class="divider" id="button3" onclick="hide(3)">dictionary</button>
   <div id="box3" class="box">
     <button class="subdivider" id="button4" onclick="hide(4)">Machine Learning</button>
-    <div id="box4" class="box"></div>
+    <div id="box4" class="box subbox">
+      <p>A process through which a computer program can autonomously learn and improve through training.</p>
+
+    </div>
     <button class="subdivider" id="button5" onclick="hide(5)">Epoch</button>
-    <div id="box4" class="box"></div>
+    <div id="box5" class="box subbox">
+      <p>One complete training iteration through a dataset.</p>
+
+    </div>
     <button class="subdivider" id="button6" onclick="hide(6)">Learning Rate</button>
-    <div id="box4" class="box"></div>
+    <div id="box6" class="box subbox">
+      <p>A parameter that controls how much to change the model in response to the estimated error each time the model weights are updated.</p>
+
+    </div>
     <button class="subdivider" id="button7" onclick="hide(7)">Datasets (Kaggle)</button>
-    <div id="box4" class="box"></div>
+    <div id="box7" class="box subbox">
+      <p>Files or libraries that contain lots of data that can be used to train models. Most often formatted as .JSON or .csv files. Kaggle is a commonly used website for locating datasets.</p>
+
+    </div>
     <button class="subdivider" id="button8" onclick="hide(8)">ml5.js</button>
-    <div id="box4" class="box"></div>
+    <div id="box8" class="box subbox">
+      <p>A powerful, open source, web-based machine learning environment that provides access to pre-trained TensorFlow templates.</p>
+
+    </div>
     <button class="subdivider" id="button9" onclick="hide(9)">MNIST</button>
-    <div id="box4" class="box"></div>
+    <div id="box9" class="box subbox">
+      <p>The MNIST Database (and several other databases that follow a similar naming pattern, such as Fashion MNIST) is a large database of handwritten digits commonly used to train visual machine learning models to recognize text.</p>
+
+    </div>
     <button class="subdivider" id="button10" onclick="hide(10)">Gradient Descent</button>
-    <div id="box4" class="box"></div>
+    <div id="box10" class="box subbox">
+      <p>Gradient Descent is a foundational minimization algorithm that uses iterations of best-fitting lines to find the coefficients (for machine learning, parameters) of a function.</p>
+
+    </div>
     <button class="subdivider" id="button11" onclick="hide(11)">Supervised/Unsupervised Learning</button>
-    <div id="box4" class="box"></div>
+    <div id="box11" class="box subbox">
+      <p>During Supervised Learning, a machine learning model has access to fully-labeled input and output variables, and can tailor its parameters based on the expected output. In Unsupervised Learning, a machine learning model is trained on an unlabeled dataset, which can be used to find patterns that might be unclear to humans.</p>
+
+    </div>
     <button class="subdivider" id="button12" onclick="hide(12)">Classification</button>
-    <div id="box4" class="box"></div>
+    <div id="box12" class="box subbox">
+      <p>A classification model is used to separate data into several user-defined categories.</p>
+
+    </div>
     <button class="subdivider" id="button13" onclick="hide(13)">Word2Vec</button>
-    <div id="box4" class="box"></div>
+    <div id="box13" class="box subbox">
+      <p>Word2Vec models are used to parse through and understand text by turning words into vector values.</p>
+
+    </div>
     <button class="subdivider" id="button14" onclick="hide(14)">KNN</button>
-    <div id="box4" class="box"></div>
+    <div id="box14" class="box subbox">
+      <p>A KNN (k-nearest neighbors) algorithm is a common solution for regression and classification in which a supervised model uses the most similar data points from the same set in order to make a prediction.</p>
+
+    </div>
     <button class="subdivider" id="button15" onclick="hide(15)">Neural Net</button>
-    <div id="box4" class="box"></div>
+    <div id="box15" class="box subbox">
+      <p>A generic name for a set of algorithms - inspired by biological neurology - that use nodes (neurons) and weights to detect patterns in datasets.</p>
+
+    </div>
     <button class="subdivider" id="button16" onclick="hide(16)">NLP</button>
-    <div id="box4" class="box"></div>
+    <div id="box16" class="box subbox">
+      <p>Natural Language Processing (NLP) is a complex field centered around the interactions between computers/machine learning and human language.</p>
+
+    </div>
     <button class="subdivider" id="button17" onclick="hide(17)">Overfitting</button>
-    <div id="box4" class="box"></div>
+    <div id="box17" class="box subbox">
+      <p>Overfitting is a traditional problem with machine learning, in which a model fits too closely to the set of training data, resulting in inaccurate predictions on new data.</p>
+
+    </div>
   </div>
 </body>
 </html>

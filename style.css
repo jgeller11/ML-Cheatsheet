@@ -33,6 +33,11 @@
   height: 100%;
 }
 
+.subbox p{
+  margin-left: 10%;
+  width: 50%;
+}
+
 body{
   font-weight: 100;
   font-family: sans-serif;
