@@ -11,11 +11,6 @@
   margin-top: 10px;
 }
 
-.divider:hover{
-  /* background: black; */
-  color: darkblue;
-}
-
 .subdivider{
   width: 70%;
   margin-left: 5%;
@@ -73,7 +68,6 @@ h1{
   padding-left: 147px;
   padding-right: 147px;
   font-size: 2em;
-  transition: color 0.5s, background 0.5s;
 }
 
 .nlpbutton:hover{
